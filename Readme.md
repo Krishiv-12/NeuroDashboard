@@ -44,16 +44,16 @@ Built using the **MERN stack** (MongoDB, Express.js, React / Next.js, Node.js) w
 ## 📸 Screenshots
 
 ### Dashboard Overview  
-![Dashboard Screenshot](public/dashboard.png)
+![Dashboard Screenshot](./assets/dashboard.png)
 
 ### Daily Planner  
-![Planner Screenshot](public/daily-planner.png)
+![Planner Screenshot](./assets/daily-planner.png)
 
 ### Authentication  
-![LoginPage Screenshot](public/authentication.png)
+![LoginPage Screenshot](./assets/authentication.png)
 
 ### Overview  
-![Overview Screenshot](public/dashboard.png)
+![Overview Screenshot](./assets/overview.png)
 
 ---
 
@@ -78,7 +78,7 @@ npm install
 cp .env.example .env
 
 
-Author-
+### Author-
 👨‍💻 Krishiv
 MERN Stack Developer | AI Enthusiast
 
