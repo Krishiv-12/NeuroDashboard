@@ -44,16 +44,16 @@ Built using the **MERN stack** (MongoDB, Express.js, React / Next.js, Node.js) w
 ## 📸 Screenshots
 
 ### Dashboard Overview  
-![Dashboard Screenshot](./client//public/dashboard.png)
+![Dashboard Screenshot](public/dashboard.png)
 
 ### Daily Planner  
-![Planner Screenshot](./client//public/daily-planner.png)
+![Planner Screenshot](public/daily-planner.png)
 
 ### Authentication  
-![LoginPage Screenshot](./client/public/authentication.png)
+![LoginPage Screenshot](public/authentication.png)
 
 ### Overview  
-![Overview Screenshot](./client//public/overview.png)
+![Overview Screenshot](public/dashboard.png)
 
 ---
 
