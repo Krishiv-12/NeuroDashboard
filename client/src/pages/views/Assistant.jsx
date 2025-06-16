@@ -1,5 +1,8 @@
+import AIWidget from '../../components/widgets/AIWidget';
 const Assistant = () => (
-    <div className="text-xl font-semibold">🤖 This is the AI Assistant page</div>
+    <div className="flex flex-col items-center justify-center h-screen bg-gray-100">
+      <AIWidget />
+    </div>
   );
   export default Assistant;
   
