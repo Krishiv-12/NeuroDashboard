@@ -20,6 +20,7 @@ const AIWidget = () => {
         }
       );
       setResponse(res.data.message);
+      setMessage("");
     } catch (err) {
       console.error("AI Error:", err.response?.data || err.message);
       setResponse("Something went wrong.");

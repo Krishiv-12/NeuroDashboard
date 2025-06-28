@@ -33,7 +33,7 @@ const DashboardLayout = ({ children }) => {
       className={`flex-1 p-4 ${
         theme === "dark"
           ? "bg-slate-900"
-          : "bg-gradient-to-br from-purple-100 to-blue-600"
+          : "bg-gradient-to-br from-purple-100 to-[#6A84ED]"
       }`}
     >
       {children}
