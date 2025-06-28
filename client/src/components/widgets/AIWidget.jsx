@@ -1,5 +1,5 @@
 import { useState } from "react";
-import axios from "axios";
+import api from "../../api";
 
 const AIWidget = () => {
   const [message, setMessage] = useState("");
@@ -12,7 +12,7 @@ const AIWidget = () => {
     if (!message.trim()) return;
     setLoading(true);
     try {
-      const res = await axios.post(
+      const res = await api.post(
         "/api/openai/chat",
         { message },
         {

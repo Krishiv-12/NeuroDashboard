@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import toast from "react-hot-toast";
-import axios from "axios";
 import AuthForm from "../components/AuthForm";
+import api from "../api";
 
 const Login = () => {
   const [loading, setLoading] = useState(false);
@@ -11,7 +11,7 @@ const Login = () => {
   const handleLogin = async (form) => {
     setLoading(true);
     try {
-      const res = await axios.post("http://localhost:5000/api/auth/login", form);
+      const res = await api.post("/api/auth/login", form);
       toast.success("Login successful!");
   
       // Save user data and token in localStorage

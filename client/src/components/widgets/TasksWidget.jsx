@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
+import api from "../../api";
 
 const TasksWidget = () => {
   const [tasks, setTasks] = useState([]);
@@ -12,7 +13,7 @@ const TasksWidget = () => {
   // Fetch tasks
   const fetchTasks = async () => {
     try {
-      const res = await axios.get("/api/tasks", {
+      const res = await api.get("/api/tasks", {
         headers: { Authorization: `Bearer ${token}` },
       });
       setTasks(res.data);
